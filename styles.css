@@ -13,20 +13,19 @@ height: 100vh;
 background-position: center;
 background-size: cover;
 }
-@media only screen and (max-width:800px){
+/* @media only screen and (max-width:800px){
     header{
-        /* height: 99vh; */
+
         
     }
-}
+} */
 nav{
     /* background-color: black; */
     justify-content: space-between;
     height: 70px;
     padding: 0 20px;
 }
-.logo{
-}
+
 .logo a{
    color: #fff; 
    list-style: none;
@@ -101,17 +100,14 @@ height: 100%;
 justify-content: center;
 }
 .cardLeftTxt{
-     /* border: 2px solid rgb(15, 238, 145); */
      width: 60%;
      height: 70%;
      display: flex;
      flex-direction: column;
      justify-content: center;
      gap: 2em;
-
 }
 .cardRight{
-    /* border: 2px solid rgb(77, 13, 228); */
     display: flex;
     width: 50%;
     height: 100%;
@@ -141,32 +137,25 @@ justify-content: center;
     }
 }
 
-.card2{
-    /* border: 2px solid red; */
-    width: 100%;
-    height: 70vh;
-    display: flex;
-  
-}
-
-.card2Left{
-   
-    width: 50%;
-    height: 100%;
-    
-     background-image: url(./images/desktop/image-stand-out.jpg);
-        background-size: cover;
-        background-position: center;
-    
+    .card2{
+        width: 100%;
+        height: 70vh;
+        display: flex;
     }
 
+    .card2Left{
+        width: 50%;
+        height: 100%;
+         background-image: url(./images/desktop/image-stand-out.jpg);
+        background-size: cover;
+        background-position: center;
+    }
       .card2Right{
         width: 50%;
         height: 100%;
        justify-content: center;
     }
     .card2RightTxt{
-         /* border: 2px solid rgb(15, 238, 145); */
          width: 60%;
          height: 70%;
          display: flex;
@@ -251,7 +240,6 @@ justify-content: center;
         display: flex;
         flex-direction: column;
         height:800px ;
-        /* height: 900px; */
     }
     .card3Left{
         width:100% ;
@@ -294,7 +282,6 @@ justify-content: center;
   
 }
 .testimonials h2{
-/* flex-direction: column; */
 text-transform: uppercase;
 color: grey;
 }
@@ -302,12 +289,10 @@ color: grey;
 .testimonialCard1{
     flex-direction: column;
     gap: 1.5em;
-    /* border: 2px solid rgb(0, 255, 136); */
     height: 40vh;
     width: 25%;
     border-radius: 5px;
     justify-content: center;
-    /* flex: 1; */
 }
 .testimonialCard1 img, .testimonialCard2 img, .testimonialCard3 img{
     width: 8vw;
@@ -315,27 +300,22 @@ color: grey;
     padding-top: ;
 }
 
-
 .testimonialCard2{
     flex-direction: column;
     gap: 1.5em;
-    /* border: 2px solid rgb(0, 255, 136); */
     height: 40vh;
     width: 25%;
     border-radius: 5px;
     justify-content: center;
-    /* flex: 1; */
 }
 
 .testimonialCard3{
     flex-direction: column;
     gap: 1.5em;
-    /* border: 2px solid rgb(0, 255, 136); */
     height: 40vh;
     width: 25%;
     border-radius: 5px;
     justify-content: center;
-    /* flex: 1; */
 }
 
 @media only screen and (max-width:800px){
@@ -344,11 +324,9 @@ color: grey;
         padding-top: 20px;
         gap: 1em;
         width: 100%;
-        /* border: 2px solid red; */
     } 
     .testi{
         flex-direction: column;
-        /* border: 2px solid rgb(202, 206, 3); */
         padding: 10px 0;
         gap: 1em; 
         width: 100%;
@@ -356,7 +334,6 @@ color: grey;
     .testimonialCard1, .testimonialCard2, .testimonialCard3{
     width: 75%;
     height: 60vw;
-    /* border: 2px solid rgb(70, 13, 202); */
     }
     .testimonialCard1 img, .testimonialCard2 img, .testimonialCard3 img{
     width: 20vw;
@@ -365,31 +342,11 @@ color: grey;
   
 }
 
-/* @media only screen and (max-width:900px){
-    .testimonials{
-        height: fit-content;
-        padding-top: 20px;
-        gap: 1em;
-    } 
-    .testi{
-      
-        gap: 40px; 
-    }
-    .testimonialCard1, .testimonialCard2, .testimonialCard3{
-    width: 25%;
-    }
-    .testimonialCard1 img, .testimonialCard2 img, .testimonialCard3 img{
-    width: 10vw;
-    border-radius: 100px;
-    }
-  
-} */
 
 
 .products{
 width: 100%;
 height: 25vw;
-/* border: 2px solid red; */
 display: flex;
 justify-content: center;
 align-items: center;
@@ -449,13 +406,8 @@ align-items: center;
         }
         .product2{
             width: 100%;
-            /* height: 100%; */
         }
 }
-
-
-
-
 
 
 footer{
@@ -468,10 +420,9 @@ footer{
   text-align: center;
   align-items: center;
   gap: 20px;
-    /* padding: 5em; */
 } 
 footer h3{
-    /* font-size: 25px; */
+  
 }
 
 .links{
@@ -491,7 +442,6 @@ footer .socials{
   text-align: center;
      align-items: center;
      justify-content: center; 
-     /* color: #fff; */
 }
 .socials a{
     text-decoration: none;
@@ -500,6 +450,4 @@ footer .socials{
 }
 .socials svg{
     color: #FFF;
-
-    
 }
